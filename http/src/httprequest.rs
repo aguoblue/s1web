@@ -46,6 +46,7 @@ pub enum Resourse {
     Path(String),
 }
 
+#[derive(Debug, PartialEq)]
 pub struct HttpRequest {
     pub method: Method,
     pub version: Version,
